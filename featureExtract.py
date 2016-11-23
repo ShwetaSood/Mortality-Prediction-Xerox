@@ -3,21 +3,10 @@
 import csv
 import pandas as p
 
-#colnames1 = ['ID','V1','V2','V3','V4','V5','V6']
 colnames1 = [2,7]
 colnames2 = [4,7,8,10,14,20,21]
 
-
-# colnames1 = range(2, 8)
-# colnames2 = range(2, 22)
-# colnames2 = ['L1','L2','L3','L4','L5','L6','L7','L8','L9','L10','L11','L12','L13','L14','L15','L16','L17','L18','L19','L20','L21','L22','L23','L24','L25']
-
-# reader1 = csv.reader(open('/home/iiitd/Desktop/Xerox data/label1Train.csv', 'rb'))
-# reader2 = csv.reader(open('/home/iiitd/Desktop/Xerox data/vitals1Train.csv', 'rb'))
 writer = csv.writer(open('/home/iiitd/Desktop/Xerox data/featuresTrain1000.csv', 'w'))
-
-
-#, names=colnames1
 
 labelData = p.read_csv('./label1Train.csv')
 data1 = p.read_csv('/home/iiitd/Desktop/Xerox data/vitals1Train.csv')
