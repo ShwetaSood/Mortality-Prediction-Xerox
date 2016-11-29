@@ -1,5 +1,5 @@
 # Mortality-Prediction-Xerox
-Predict the risk of death (mortality) in patients admitted to ICU within hospitals as part of the <i><a href="https://www.hackerrank.com/contests/xerox-research-innovation-challenge-2015/challenges/xerox-predict-mortality">Xerox Mortality Prediction Challenge</i>.
+Predict the risk of death (mortality) in patients admitted to ICU within hospitals as part of the <i><a href="https://www.hackerrank.com/contests/xerox-research-innovation-challenge-2015/challenges/xerox-predict-mortality">Xerox Mortality Prediction Challenge</a></i>
 Details of the files are as follows:
 <ol type="1">
 <li>MortalityPredictioninICU-XRCI_MiniProject.pdf - details of the project
